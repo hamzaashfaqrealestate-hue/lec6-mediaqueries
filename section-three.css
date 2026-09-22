@@ -1,0 +1,29 @@
+.section-three {
+    padding: 3rem;
+    background-color: rgb(204, 191, 217);
+
+}
+
+#skills-heading {
+    color: rgb(17, 17, 101);
+}
+
+.my-skills {
+    /* padding: 1rem 1rem 0 1rem; */
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+
+  @media screen and (max-width: 500px) {
+    .section-three {
+        padding: 2rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 426px) {
+    .section-three {
+        padding: 1rem;
+    }
+  }

@@ -1,0 +1,24 @@
+  .section-two {
+      padding: 3rem;
+  }
+
+  #about-heading {
+      color: rgb(17, 17, 101);
+  }
+
+  #about-me {
+      padding-top: 1rem;
+  }
+
+  @media screen and (max-width: 500px) {
+    .section-two {
+        padding: 2rem;
+    }
+    
+  }
+
+  @media screen and (max-width: 426px) {
+    .section-two {
+        padding: 1rem;
+    }
+  }
