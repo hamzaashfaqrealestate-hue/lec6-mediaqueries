@@ -44,7 +44,6 @@
     align-items: center;
 }
 
-
 @media screen and (max-width: 700px) {
     .section-one-left {
         width: 100%;
@@ -58,10 +57,9 @@
 @media screen and (max-width: 426px) {
     .section-one {
         padding: 1rem;
-        flex-direction: column-reverse;
-        gap: 1rem;
+        /* flex-direction: column-reverse; */
+        /* gap: 1rem; */
     }
-
 
     .section-one-left button {
         padding: 0.75rem;

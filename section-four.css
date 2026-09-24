@@ -1,4 +1,8 @@
-  @media screen and (max-width: 500px) {
+.section-four .skills-items {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
     .section-four {
         padding: 2rem;
     }
@@ -9,6 +13,7 @@
     .section-four {
         padding: 1rem;
     }
+    
   }
    @media screen and (min-width: 500px) {
     .section-four {

@@ -1,17 +1,32 @@
-  @media screen and (max-width: 500px) {
-    .section-five {
-        padding: 2rem;
-    }
-    
-  }
+.section-five .social-links {
+  /* padding: 1rem; */
+  padding-block: 1rem;
+  list-style: none;
+}
 
-  @media screen and (max-width: 426px) {
-    .section-five {
-        padding: 1rem;
-    }
+
+.section-five .social-links a {
+  text-decoration: none;
+}
+
+.section-five .social-links a span {
+  color: black;
+}
+
+@media screen and (max-width: 500px) {
+  .section-five {
+    padding: 2rem;
   }
-   @media screen and (min-width: 500px) {
-    .section-five {
-        padding: 3rem;
-    }
+}
+
+@media screen and (max-width: 426px) {
+  .section-five {
+    padding: 1rem;
   }
+}
+
+@media screen and (min-width: 500px) {
+  .section-five {
+    padding: 3rem;
+  }
+}
